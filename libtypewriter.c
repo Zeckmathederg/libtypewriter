@@ -3,7 +3,7 @@
 void typewriter(char txt[], int time) {
 	time *= 10000;
 	for(int i = 0; txt[i] != '\0'; i++) {
-		printf("%c",txt[i]);
+		putchar(txt[i]);
 		fflush(stdout);
 		usleep(time);
 	}
@@ -19,3 +19,4 @@ void typewriter(char txt[], int time) {
  * to be printed.
  *
  */
+
