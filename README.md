@@ -11,5 +11,5 @@ In the .c file, including libtypewriter.h will get you by.
 
 Read libtypewriter.c and the comment at the end to understand the function more.
 
-To compile the program, use `gcc -I(includepath)/libtypewriter.h -ltypewriter` coming before all your arguments and source files.
+To compile the program, use `gcc -I(includepath) -ltypewriter` coming before all your arguments and source files.
 
