@@ -1,0 +1,9 @@
+prefix=/usr
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libtypewriter
+Description: Library that prints each char one after the other with a small delay.
+Version: nonprod
+Libs: -ltypewriter
+Cflags: -I${includedir}
